@@ -1,0 +1,141 @@
+$mysqli=new mysqli("localhost","root","","culture");
+	if(mysqli_connect_errno())
+	{
+		printf("Connection failed %s",mysqli_connect_error());
+		exit();
+	}
+
+	//no sending
+//event_CORD
+	
+	var numb = "10101";
+	var xmlhttp=new XMLHttpRequest();
+  	xmlhttp.onreadystatechange=function()
+  	{
+    	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    	{
+      		document.getElementById("event_form").innerHTML=xmlhttp.responseText;
+			var res=document.getElementById("event_form").innerHTML;
+			if(res.indexOf("dhS8!)")>0)
+			{
+				window.location = 'login.php';
+			}
+		}
+  	}
+	php?key="+numb
+	xmlhttp.send("key="+numb);
+	
+	
+	session_start();
+	if((isset($_SESSION["name_ec"]))&&(isset($_REQUEST["key"])))
+	{
+	
+	}
+	else if(((!isset($_SESSION["name_ec"]))&&(!isset($_REQUEST["key"])))||((isset($_SESSION["name_ec"]))&&(!isset($_REQUEST["key"]))))
+	{
+		session_unset();
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+		session_destroy();
+		header("Location:login.php");
+	}
+	
+	else
+	{
+		session_unset();
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+		session_destroy();
+		echo "<div>Ah4*!bb dhS8!) Nh5@n</div>";
+		exit();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//dummy
+	
+	
+	var xmlhttp=new XMLHttpRequest();
+  	xmlhttp.onreadystatechange=function()
+  	{
+    	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    	{
+      		document.getElementById("event_form").innerHTML=xmlhttp.responseText;
+			var res=document.getElementById("event_form").innerHTML;
+			if(res.indexOf("dhS8!)")>0)
+			{
+				window.location = 'login.php';
+			}
+		}
+  	}
+	
+	
+	
+	session_start();
+	if((isset($_SESSION["name_ec"]))&&(isset($_REQUEST[""])))
+	{
+	
+	}
+	else if(((!isset($_SESSION["name_ec"]))&&(!isset($_REQUEST[""])))||((isset($_SESSION["name_ec"]))&&(!isset($_REQUEST[""]))))
+	{
+		session_unset();
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+		session_destroy();
+		header("Location:login.php");
+	}
+	
+	else
+	{
+		session_unset();
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+		session_destroy();
+		echo "<div>Ah4*!bb dhS8!) Nh5@n</div>";
+		exit();
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

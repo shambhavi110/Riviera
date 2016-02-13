@@ -1,0 +1,6 @@
+/*Pending Receipts*/
+.search{position:absolute;top:80px;left:80px;width:200px;height:35px;border:none;}
+.from{position:absolute;top:80px;left:300px;width:200px;height:35px;border:none;}
+.to{position:absolute;top:80px;left:540px;width:200px;height:35px;border:none;}
+.download{position:absolute;top:140px;left:140px;width:240px;height:43px;border:none;background-color:rgb(23,123,187);color:white;}
+.go{position:absolute;top:140px;left:440px;width:240px;height:43px;border:none;background-color:rgb(23,123,187);color:white;}

@@ -1,0 +1,62 @@
+.riviera_logo{
+				opacity:0.2;width:1300px;height:600px;
+				}
+.dname{position:absolute;left:200px;top:40px;width:250px;height:45px;border:none;}
+			.reg{position:absolute;left:200px;top:100px;width:250px;height:45px;border:none;}
+			.phone{position:absolute;left:200px;top:160px;width:250px;height:45px;border:none;}
+			.rec{position:absolute;left:200px;top:220px;width:250px;height:45px;border:none;}
+			.submit{position:absolute;left:200px;top:320px;width:250px;height:45px;border:none;background-color:#177bbb;color:white;font-size:18px;}
+			.submited{position:absolute;left:200px;top:340px;width:250px;height:45px;border:none;background-color:#177bbb;color:white;font-size:18px;}
+			.download{position:absolute;left:20px;top:530px;width:250px;height:45px;border:none;background-color:#177bbb;color:white;font-size:18px;}
+			#regnoer{position:absolute;left:440px;top:50px;color:red;font-style:italic;width:150px;font-size:16px;}
+			#phnoer{position:absolute;top:150px;left:30px;color:red;font-style:italic;width:180px;}
+			#rnoer{position:absolute;top:150px;left:400px;color:red;font-style:italic;width:230px;}
+			.date{position:absolute;left:200px;top:280px;width:250px;height:45px;border:none;}
+			
+			body{background-image:url('bg.jpg');background-repeat:no-repeat;background-attachment:fixed;}
+			.head{
+			position:fixed;top:0px;left:0px;
+			width:100%;height:100px;
+			background-color:rgba(0,0,0,0.7);box-shadow: 7px 7px 7px #61622F;
+			}
+			.headtext{
+			position:fixed;left:80px;top:15px;color:rgba(240,240,240,0.8);
+			}
+			.logout{
+			position:fixed;top:50px;left:1198px;border:none;width:160px;height:50px;background-color:rgba(255,255,255,0);font-size:18px;color:rgba(240,240,240,0.8)
+			}
+			.logout:hover{background-color:rgba(255,255,255,0.8);color:black;}
+			.mdisp{
+			-webkit-animation: fadein 1s;-moz-animation: fadein 1s;-ms-animation: fadein 1s;
+			}
+			.display{
+			position:absolute;left:350px;top:150px;background-color:rgba(241,238,99,0.7);width:690px;height:500px;color:#61622F;box-shadow: 3px 7px 7px #9C9C9C;
+			overflow:auto;}
+			.home{
+			position:fixed;top:50px;left:670px;border:none;width:160px;height:50px;background-color:rgba(255,255,255,0);font-size:18px;color:rgba(240,240,240,0.8)
+			}
+			.home:hover{background-color:rgba(255,255,255,0.8);color:black;}
+			.changepass{
+			position:fixed;top:50px;left:830px;border:none;width:200px;height:50px;background-color:rgba(255,255,255,0);font-size:18px;color:rgba(240,240,240,0.8)
+			}
+			.changepass:hover{background-color:rgba(255,255,255,0.8);color:black;}
+			.recei{
+			position:fixed;top:50px;left:1030px;border:none;width:160px;height:50px;background-color:rgba(255,255,255,0);font-size:18px;color:rgba(240,240,240,0.8)
+			}
+			.recei:hover{background-color:rgba(255,255,255,0.8);color:black;}
+			.sear{position:absolute;top:310px;left:590px;width:200px;border:none;height:30px;}
+			.footer{
+				position:absolute;top:670px;left:0px;height:50px;background-color:rgba(0,0,0,0.8);width:100%;
+			}
+			@-webkit-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 0.9; }
+			}
+			@-moz-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 0.9; }
+			}
+			@-ms-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 0.9; }
+			}
